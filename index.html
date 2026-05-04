@@ -85,6 +85,12 @@
         .footnote{position: fixed; bottom: 15px; width:100%; text-align:center; font-size:1.2rem;
                 color: rgba(255,255,255,0.7); text-shadow: 1px 1px 0px #000;
                 letter-spacing: 1.5px; pointer-events: none;}
+        .footnote a{
+            color: inherit; text-decoration: underline; transition: 0.2s; pointer-events:auto;
+        }
+        .footnote a:hover{
+            color: #FFFFFF; text-shadow: 2px 2px 0px #000;
+        }
    </style>
 </head>
 <body>
@@ -112,7 +118,7 @@
         </form>
     </div>
     <div class="footnote">
-        Made by Arham
+        <a href="https://www.cs.mun.ca/~atamim/" target="_blank">Made By Arham</a>
     </div>
     <script src="kmeans.js"></script>
     <script src="index.js"></script>
